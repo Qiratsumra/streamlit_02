@@ -4,15 +4,16 @@ st.set_page_config(page_title='🌱Mindset Growth',page_icon='🌱')
 
 
 
-st.title('☘ Growth Mindset Challenge: Web App with Streamlit')
+st.title('\U0001f600 Growth Mindset Challenge: Web App with Streamlit')
 st.header('🧠 Welcome to the Mindset Growth Project')
 st.write('A growth mindset fosters resilience, adaptability, and a love for lifelong learning, helping individuals achieve personal and professional success.🌟🤩')
+
 
 st.header("⚡ Today's Growth Mindset Quotes!")
 st.write('**Do not be embarrassed by your failures, learn from them and start again** – Richard Branson')
 
-st.header("🏆 What's your today challange")
 
+st.header("🏆 What's your today challange")
 user_input =  st.text_input('*Enter your challange today you are facing*')
 
 # condition
@@ -24,6 +25,7 @@ else :
 
 st.header('Relection on Your Goal')
 reflection = st.text_area('Write what you think?')
+
 # reflecting
 if reflection:
     st.success(f'Great **{reflection}**')
